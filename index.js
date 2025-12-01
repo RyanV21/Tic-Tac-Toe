@@ -53,6 +53,7 @@ function changeSymbol(currChoice) {
     if (numTurns === 9) {
         gameEnd = true;
         alert("The game has ended in a tie. refresh the page to restart.");
+        currTurn.textContent = 'Game Tied';
     };
 };
 
@@ -100,4 +101,5 @@ function checkWin() {
 
     // If none of these statements are true yet then it returns false because no one has won yet.
     return false;
+
 };
