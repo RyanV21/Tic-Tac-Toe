@@ -1,0 +1,191 @@
+
+body {
+    text-align: center;
+}
+
+h1 {
+    box-sizing: border-box;
+    font-family: "Google Sans Code", monospace;
+    text-shadow: 1px 1px #000000;
+}
+
+#currturn {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+    font-family: "Comic Relief", system-ui;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: auto;
+    width: 900px;
+}
+
+.boxes {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #efefef;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.choices {
+    width: 258px;
+    height: 18.5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}
+
+#box1 {
+    border-top-style: none;
+    border-left-style: none;
+}
+
+#box2 {
+    border-top-style: none;
+}
+
+#box3 {
+    border-top-style: none;
+    border-right-style: none;
+}
+
+#box4 {
+    border-left-style: none;
+}
+
+#box6 {
+    border-right-style: none;
+}
+
+#box7 {
+    border-bottom-style: none;
+    border-left-style: none;
+}
+
+#box8 {
+    border-bottom-style: none;
+}
+
+#box9 {
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .container {
+        width: 720px;
+    }
+
+    .boxes {
+        width: 240px;
+    }
+
+    .choices {
+        width: 206.4px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    h1 {
+        font-size: 25.6px;
+    }
+    
+    #currturn {
+        font-size: 15.36px;
+    }
+    
+    .container {
+        width: 576px;
+    }
+
+    .boxes {
+        width: 192px;
+    }
+
+    .choices {
+        width: 165.12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 20.48px;
+    }
+    
+    #currturn {
+        font-size: 12.288px;
+    }
+    
+    .container {
+        width: 460.8px;
+    }
+
+    .boxes {
+        width: 153.6px;
+    }
+
+    .choices {
+        width: 132.096px;
+    }
+}
+
+@media screen and (max-width: 460.8px) {
+    h1 {
+        font-size: 16.384px;
+    }
+    
+    #currturn {
+        font-size: 9.830px;
+    }
+    
+    .container {
+        width: 368.64px;
+    }
+
+    .boxes {
+        width: 122.88px;
+    }
+
+    .choices {
+        width: 105.676px;
+    }
+}
+
+@media screen and (max-width: 368.64px) {
+    h1 {
+        font-size: 13.107px;
+    }
+    
+    #currturn {
+        font-size: 7.864px;
+    }
+    
+    .container {
+        width: 294.912px;
+    }
+
+    .boxes {
+        width: 98.304px;
+    }
+
+    .choices {
+        width: 84.541px;
+    }
+}
